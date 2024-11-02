@@ -1,0 +1,31 @@
+.menu button {
+  @apply font-bold text-lg text-gray-500 focus:text-gray-700  border-gray-300 border-b-2 focus:border-gray-700
+
+            transition-all duration-500 ease-in-out;
+}
+
+.menu input {
+  @apply w-[100px] font-bold text-lg text-gray-500 focus:text-gray-700  border-gray-300 border-b-2
+
+               focus:border-gray-700 transition-all duration-500 ease-in-out outline-none text-center bg-transparent;
+}
+
+.card {
+  @apply rounded-md bg-gray-200 shadow-lg;
+}
+
+.card .discount {
+  @apply text-sm text-[#ffffff] px-[10px] font-bold py-[2px] bg-[#EBB137] absolute rounded-md right-2 bottom-2 overflow-hidden;
+}
+
+.card .text ul {
+  @apply text-sm font-normal text-gray-500 list-disc p-4 mt-1;
+}
+
+.card .text .model {
+  @apply text-[20px] font-bold text-gray-600;
+}
+
+.card .text ul li {
+  @apply mb-1;
+}
