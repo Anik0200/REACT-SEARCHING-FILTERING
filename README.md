@@ -2,7 +2,7 @@
 
 This repository contains a React App with Advanced Search & Filtering Features.
 
-[DEMO](https://react-searching-filtering.vercel.app/)
+[DEMO](https://react-searching-filtering.netlify.app/)
 
 ## FEATURES :
 
